@@ -1,0 +1,12 @@
+uuid: b620efb0-9ad4-46b8-ab46-03f622f12969
+langcode: pt-br
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 4
+is_admin: null
+permissions:
+  - 'administer blocks'
+  - 'edit container block entities'
+  - 'view published container block entities'

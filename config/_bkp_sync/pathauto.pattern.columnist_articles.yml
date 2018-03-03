@@ -1,0 +1,22 @@
+uuid: fe1c7bf8-553e-4341-86d2-f45f739ce953
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: columnist_articles
+label: 'Artigos de Colunista'
+type: 'canonical_entities:node'
+pattern: '/colunistas/[node:author:profiles:columnist:first_name]-[node:author:profiles:columnist:last_name]/[node:title]'
+selection_criteria:
+  9f2b0142-577a-4414-bc65-50cdba7ae2bf:
+    id: node_type
+    bundles:
+      article_columnist: article_columnist
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9f2b0142-577a-4414-bc65-50cdba7ae2bf
+selection_logic: and
+weight: -5
+relationships: {  }

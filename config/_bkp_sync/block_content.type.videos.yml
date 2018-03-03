@@ -1,0 +1,8 @@
+uuid: 8dd51c8d-57ae-47c6-be07-07a5fe1d787e
+langcode: pt-br
+status: true
+dependencies: {  }
+id: videos
+label: Vídeos
+revision: 0
+description: ''

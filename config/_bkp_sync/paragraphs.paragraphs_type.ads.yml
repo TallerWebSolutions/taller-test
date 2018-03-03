@@ -1,0 +1,9 @@
+uuid: e97cf5a6-7923-46a2-8c2c-f44823856be2
+langcode: pt-br
+status: true
+dependencies: {  }
+id: ads
+label: Anúncio
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

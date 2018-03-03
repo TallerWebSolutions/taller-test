@@ -1,0 +1,25 @@
+uuid: 3c8ad094-bf6c-4bef-bc69-1894b4ac0527
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_container_block
+    - node.type.page
+id: node.page.field_container_block
+field_name: field_container_block
+entity_type: node
+bundle: page
+label: 'Container block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:container_block'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

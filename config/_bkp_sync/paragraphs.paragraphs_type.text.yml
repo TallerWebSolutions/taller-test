@@ -1,0 +1,9 @@
+uuid: bc6eeaa1-9992-46af-b818-b1a1477353fc
+langcode: pt-br
+status: true
+dependencies: {  }
+id: text
+label: Texto
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

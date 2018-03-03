@@ -1,0 +1,15 @@
+uuid: c5594874-9ff7-48d3-bba6-5b8542b525e6
+langcode: pt-br
+status: true
+dependencies: {  }
+name: columnist_card_picture
+label: 'Columnist card picture'
+effects:
+  aadef7f8-faaf-4524-a21c-6c9da8298f08:
+    uuid: aadef7f8-faaf-4524-a21c-6c9da8298f08
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: null
+      upscale: false

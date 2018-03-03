@@ -1,0 +1,25 @@
+uuid: 63ca8dbf-9c41-4541-965a-9896f5090c8b
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.ad_newsfeed
+    - field.field.block_content.ad_newsfeed.ads
+  module:
+    - entity_reference_revisions
+id: block_content.ad_newsfeed.default
+targetEntityType: block_content
+bundle: ad_newsfeed
+mode: default
+content:
+  ads:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

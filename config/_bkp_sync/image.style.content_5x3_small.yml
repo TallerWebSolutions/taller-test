@@ -1,0 +1,14 @@
+uuid: 74031a3a-cb25-4e19-a72f-4ce56efaab35
+langcode: pt-br
+status: true
+dependencies: {  }
+name: content_5x3_small
+label: 'content 5x3 small'
+effects:
+  c4704472-63b0-41da-8977-a29e7408f7db:
+    uuid: c4704472-63b0-41da-8977-a29e7408f7db
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 500
+      height: 300

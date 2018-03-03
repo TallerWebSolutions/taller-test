@@ -1,0 +1,23 @@
+uuid: 1206c2f6-99bf-4f3c-8500-19984faa90d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.teaser
+    - field.storage.block_content.link
+  module:
+    - link
+id: block_content.teaser.link
+field_name: link
+entity_type: block_content
+bundle: teaser
+label: Link
+description: 'Link para o conteúdo original.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

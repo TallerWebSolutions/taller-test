@@ -1,0 +1,24 @@
+uuid: 31c93ea3-1515-4b04-9b9c-e7ea90ff3363
+langcode: en
+status: true
+dependencies: {  }
+id: columnist
+label: Colunista
+weight: 3
+is_admin: null
+permissions:
+  - 'administer blocks'
+  - 'administer nodes'
+  - 'change own username'
+  - 'create article_columnist content'
+  - 'create media'
+  - 'delete article_columnist revisions'
+  - 'delete media'
+  - 'delete own article_columnist content'
+  - 'delete own columnist profile'
+  - 'edit own article_columnist content'
+  - 'revert article_columnist revisions'
+  - 'update media'
+  - 'update own columnist profile'
+  - 'view article_columnist revisions'
+  - 'view own columnist profile'

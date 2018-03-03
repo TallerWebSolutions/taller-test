@@ -1,0 +1,23 @@
+label: 'Bloco Quem está online'
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
+      filters:
+        access:
+          expose:
+            label: 'Último acesso'
+            description: 'Um usuário é considerado "online" pelo seguinte intervalo de tempo após última visita a uma página.'
+      title: 'Quem está online'
+  who_s_online_block:
+    display_title: 'Quem está online'
+    display_options:
+      block_description: 'Quem está online'
+      display_description: 'Uma lista de usuários que estão autenticados atualmente.'

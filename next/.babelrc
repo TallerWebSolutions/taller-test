@@ -1,0 +1,38 @@
+{
+  "env": {
+    "development": {
+      "presets": "next/babel"
+    },
+    "production": {
+      "presets": "next/babel"
+    },
+    "test": {
+      "presets": [
+        ["env", { "modules": "commonjs" }],
+        "next/babel"
+      ],
+
+      "plugins": [
+        "istanbul",
+        "babel-plugin-rewire"
+      ]
+    }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "app": "./src",
+        "process": "./src/process"
+      }
+    }],
+
+    "emotion",
+
+    ["wrap-in-js", { "extensions": ["css$", "styl$"] }],
+
+    ["babel-plugin-styled-components", {
+      "ssr": true
+    }]
+  ]
+}

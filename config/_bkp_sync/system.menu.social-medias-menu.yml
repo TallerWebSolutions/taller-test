@@ -1,0 +1,8 @@
+uuid: 3e483cd9-625b-410c-af00-af46e41e708f
+langcode: pt-br
+status: true
+dependencies: {  }
+id: social-medias-menu
+label: 'Redes Sociais'
+description: ''
+locked: false

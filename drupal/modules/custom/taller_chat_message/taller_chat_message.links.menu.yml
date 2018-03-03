@@ -1,0 +1,14 @@
+
+# Message menu items definition
+entity.message.collection:
+  title: 'Message list'
+  route_name: entity.message.collection
+  description: 'List Message entities'
+  parent: system.admin_structure
+  weight: 100
+
+message.admin.structure.settings:
+  title: 'Message settings'
+  description: 'Configure Message entities'
+  route_name: message.settings
+  parent: system.admin_structure

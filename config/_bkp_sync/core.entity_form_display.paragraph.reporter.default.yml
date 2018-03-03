@@ -1,0 +1,35 @@
+uuid: 4a57d4b8-4e64-4854-a45b-d53d59d92dcf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.reporter.link
+    - field.field.paragraph.reporter.name
+    - paragraphs.paragraphs_type.reporter
+  module:
+    - link
+id: paragraph.reporter.default
+targetEntityType: paragraph
+bundle: reporter
+mode: default
+content:
+  link:
+    weight: 1
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

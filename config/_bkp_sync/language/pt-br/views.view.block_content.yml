@@ -1,0 +1,41 @@
+description: 'Encontre e gerencie blocos customizados.'
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Tudo -'
+            offset_label: Offset
+      fields:
+        info:
+          label: 'Descrição do bloco'
+          separator: ', '
+        type:
+          label: 'Tipo de bloco'
+          separator: ', '
+        changed:
+          label: Atualizado
+        operations:
+          label: Operações
+      filters:
+        info:
+          expose:
+            label: 'Descrição do bloco'
+        type:
+          expose:
+            label: 'Tipo de bloco'
+      empty:
+        area_text_custom:
+          content: 'Não existem blocos customizados disponíveis. '
+  page_1:
+    display_title: Página
