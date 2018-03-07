@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-  [Taller](http://taller.net.br)'s Chat Test
+  <a href="http://taller.net.br">Taller</a>'s Chat Test
 </h1>
 
 Welcome to TallerChat: a chat application that intends to beat Slack, but is humble enough to understand this is never going to happen.
