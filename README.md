@@ -8,7 +8,7 @@
   <a href="http://taller.net.br">Taller</a>'s Chat Test
 </h1>
 
-<p align="center">A chat application that intends to beat Slack, but is humble enough to understand this is never going to happen.</p>
+<p align="center">A chat application that intends to beat Slack,<br />but is humble enough to understand this is never going to happen.</p>
 
 ## How will it work
 
