@@ -12,9 +12,9 @@
 
 ## How will it work
 
-The purpose of this test to help us understand your technical proficiency and decision making process.
+The purpose of this test is to help us understand your technical proficiency and decision making process.
 
-Install this application, check it out, and once it's up-and-running, we will schedule a screening code interview, during which you will be asked to develop a couple of new features or apply bug fixes for the app.
+Install this application, check it out, and once it's up-and-running, we will schedule a live code interview, during which you will be asked to develop a couple of new features or apply bug fixes for the app.
 
 ## What will you need
 
