@@ -12,9 +12,9 @@
 
 ## How will it work
 
-Our intent with the test is for us to understand your technical proficiency and your decision making process.
+The purpose of this test to help us understand your technical proficiency and decision making process.
 
-You will install this application, have a look around, and once you have all up-and-running we will schedule a screening code interview, during which you will be asked to develop a couple of new features or bug fixes inside the project.
+Install this application, check it out, and once it's up-and-running, we will schedule a screening code interview, during which you will be asked to develop a couple of new features or apply bug fixes for the app.
 
 ## What will you need
 
@@ -95,8 +95,8 @@ The following commands are available on the Next.js React application:
 
 ## What should I do now?
 
-It is important that you have the development environment operational before the interview. So take the time and study how things work on the application, maybe try and stress it to find some errors yourself. If you have any trouble you can open an issue on this repository and we'll get back to you as soon as possible.
+It is important that you have the development environment operational before the interview. So take the time and study how things work on the application, maybe try to find some bugs. If you have any trouble, please open an issue on this repository and we'll get back to you as soon as possible.
 
 ## *Disclaimer*
 
-*This project is not a product, will not go into production, and has no intend to serve any purpose other than to be a constrained but near-real-world application used to test candidates to a development position at [Taller](taller.net.br).*
+*This project is not a product, will not go into production, and has no intention to serve any purpose other than to be a constrained but near-real-world application used to test candidates to a development position at [Taller](taller.net.br).*
