@@ -12,9 +12,9 @@
 
 ## How will it work
 
-Our intent with the test is for us to understand your technical proficiency and your decision make process.
+Our intent with the test is for us to understand your technical proficiency and your decision making process.
 
-You will install this application, have a look around, and once you have all up-and-running we will schedule a screening code interview, during which you are will be asked to develop a couple of new features or bug fixes inside the project.
+You will install this application, have a look around, and once you have all up-and-running we will schedule a screening code interview, during which you will be asked to develop a couple of new features or bug fixes inside the project.
 
 ## What will you need
 
