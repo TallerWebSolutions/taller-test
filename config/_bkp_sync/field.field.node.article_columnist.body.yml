@@ -1,0 +1,22 @@
+uuid: 17379b5d-2c66-40b4-a5a2-48612bc3f442
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.article_columnist
+  module:
+    - text
+id: node.article_columnist.body
+field_name: body
+entity_type: node
+bundle: article_columnist
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

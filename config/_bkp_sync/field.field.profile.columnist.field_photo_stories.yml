@@ -1,0 +1,38 @@
+uuid: 4ec413a3-2e09-4572-96a3-2169b16b84fa
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_photo_stories
+    - profile.type.columnist
+  module:
+    - image
+id: profile.columnist.field_photo_stories
+field_name: field_photo_stories
+entity_type: profile
+bundle: columnist
+label: 'Foto de stories'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

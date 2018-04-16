@@ -1,0 +1,28 @@
+uuid: a2d17f55-54e7-48af-9a5d-aa1d3ab94dc7
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'administer blocks'
+  - 'edit container block entities'
+  - 'execute graphql requests'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format simple'
+  - 'view any columnist profile'
+  - 'view own unpublished content'
+  - 'view profile'
+  - 'view published container block entities'
+  - 'view published container block layout entities'

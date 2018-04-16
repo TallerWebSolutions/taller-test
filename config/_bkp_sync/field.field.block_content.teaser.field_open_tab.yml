@@ -1,0 +1,23 @@
+uuid: f28bb8c3-4d26-408c-b6ad-7d89a2d78b94
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.teaser
+    - field.storage.block_content.field_open_tab
+id: block_content.teaser.field_open_tab
+field_name: field_open_tab
+entity_type: block_content
+bundle: teaser
+label: 'Abrir nova janela'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

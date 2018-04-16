@@ -1,0 +1,19 @@
+uuid: 2b41d152-9d22-4fa5-9c85-6ed0a936fd93
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Usuário anônimo'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access user profiles'
+  - 'execute graphql requests'
+  - 'view any columnist profile'
+  - 'view media'
+  - 'view profile'
+  - 'view published container block entities'
+  - 'view published container block layout entities'

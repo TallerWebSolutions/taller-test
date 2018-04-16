@@ -1,0 +1,9 @@
+uuid: 75e374d0-83f4-4516-9342-bf776d2b227b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Localidades de regionalização'
+vid: nsc_locations
+description: 'Localidades para regionalização do conteúdo.'
+hierarchy: 0
+weight: 0

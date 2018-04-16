@@ -1,0 +1,5 @@
+register_admin_created:
+  subject: 'Um administrador criou uma conta para você no site [site:name]'
+status_blocked:
+  body: "[user:display-name],\r\n\r\nSua conta em [site:name] foi bloqueada.\r\n\r\n--  Equipe [site:name]"
+  subject: 'Detalhes da conta para [user:display-name] em [site:name] (bloqueada)'

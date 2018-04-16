@@ -1,0 +1,16 @@
+uuid: 74598fa5-64fb-450e-80b6-25a48541a3fe
+langcode: pt-br
+status: false
+dependencies: {  }
+id: development
+label: Development
+folder: ../config/development
+module:
+  field_ui: 0
+  views_ui: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

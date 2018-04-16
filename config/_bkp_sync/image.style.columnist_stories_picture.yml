@@ -1,0 +1,14 @@
+uuid: 3ace0d57-a373-4015-ac6e-858894e80067
+langcode: pt-br
+status: true
+dependencies: {  }
+name: columnist_stories_picture
+label: 'Columnist stories picture'
+effects:
+  6959ab29-9f5e-4399-a1b7-97f4b996c59b:
+    uuid: 6959ab29-9f5e-4399-a1b7-97f4b996c59b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 50
+      height: 70

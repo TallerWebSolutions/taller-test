@@ -1,0 +1,7 @@
+uuid: b811a160-d5a7-4f78-8c54-95cccd75bccc
+langcode: en
+status: true
+dependencies: {  }
+name: default
+label: default
+effects: {  }

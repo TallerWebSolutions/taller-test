@@ -1,0 +1,19 @@
+uuid: 76d80fc1-3a91-4d79-a187-606ea39f3268
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_credits
+    - paragraphs.paragraphs_type.image
+id: paragraph.image.field_credits
+field_name: field_credits
+entity_type: paragraph
+bundle: image
+label: Cŕeditos
+description: 'Créditos da imagem. Normalmente usado para inserir o nome do fotografo ou origem da imagem.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

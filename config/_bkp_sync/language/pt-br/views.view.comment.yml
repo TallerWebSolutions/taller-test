@@ -1,0 +1,97 @@
+label: Comentários
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
+      pager:
+        options:
+          tags:
+            previous: '‹ anterior'
+            next: 'próximo ›'
+            first: '« início'
+            last: 'fim »'
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Tudo -'
+            offset_label: Offset
+      fields:
+        comment_bulk_form:
+          action_title: Ação
+        subject:
+          label: Assunto
+          separator: ', '
+        uid:
+          separator: ', '
+        name:
+          label: Autor
+          separator: ', '
+        entity_id:
+          label: 'Enviado em'
+          separator: ', '
+        changed:
+          label: Atualizado
+          separator: ', '
+        operations:
+          label: Operações
+        name_1:
+          separator: ', '
+      filters:
+        subject:
+          expose:
+            label: Assunto
+        combine:
+          expose:
+            label: 'Nome do autor'
+        langcode:
+          expose:
+            label: Idioma
+      title: Comentários
+      empty:
+        area_text_custom:
+          content: 'Não há comentários.'
+      use_more_text: mais
+  page_published:
+    display_title: 'Comentários publicados'
+    display_options:
+      menu:
+        title: Comentários
+  page_unapproved:
+    display_title: 'Comentários não aprovados'
+    display_options:
+      menu:
+        title: 'Comentários não aprovados'
+      filters:
+        subject:
+          expose:
+            label: Assunto
+        langcode:
+          expose:
+            label: Idioma
+      fields:
+        comment_bulk_form:
+          action_title: Ação
+        subject:
+          label: Assunto
+          separator: ', '
+        uid:
+          separator: ', '
+        name:
+          label: Autor
+          separator: ', '
+        entity_id:
+          label: 'Enviado em'
+          separator: ', '
+        changed:
+          label: Atualizado
+          separator: ', '
+        operations:
+          label: Operações
+        name_1:
+          separator: ', '

@@ -1,0 +1,5 @@
+entity.message.add_form:
+  route_name: entity.message.add_form
+  title: 'Add Message'
+  appears_on:
+    - entity.message.collection

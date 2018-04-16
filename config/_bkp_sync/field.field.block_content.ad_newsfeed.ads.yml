@@ -1,0 +1,37 @@
+uuid: 01d4c16a-5344-4e55-9032-87a44a26fb83
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.ad_newsfeed
+    - field.storage.block_content.ads
+    - paragraphs.paragraphs_type.ads
+  module:
+    - entity_reference_revisions
+id: block_content.ad_newsfeed.ads
+field_name: ads
+entity_type: block_content
+bundle: ad_newsfeed
+label: ads
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      ads: ads
+    target_bundles_drag_drop:
+      ads:
+        enabled: true
+        weight: 4
+      reporter:
+        weight: 5
+        enabled: false
+      text:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

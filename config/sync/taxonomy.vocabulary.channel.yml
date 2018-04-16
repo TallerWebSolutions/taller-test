@@ -1,0 +1,9 @@
+uuid: 5d61f605-cb82-4b8a-a02c-a551d5ecf854
+langcode: en
+status: true
+dependencies: {  }
+name: Channel
+vid: channel
+description: 'Chat channel'
+hierarchy: 0
+weight: 0

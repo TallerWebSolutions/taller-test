@@ -1,0 +1,46 @@
+spt_table:
+  -
+    status: '1'
+    pages: '*'
+    theme: seven
+    roles:
+      authenticated: authenticated
+      administrator: administrator
+      columnist: columnist
+      editor: editor
+      anonymous: 0
+    language:
+      pt-br: pt-br
+      en: en
+    weight: '-10'
+    remove: Remover
+  -
+    status: '1'
+    pages: /user/login
+    theme: seven
+    roles:
+      anonymous: anonymous
+      authenticated: 0
+      administrator: 0
+      columnist: 0
+      editor: 0
+    language:
+      pt-br: pt-br
+      en: en
+    weight: '-10'
+    remove: Remover
+  -
+    status: '1'
+    pages: /graphql/explorer
+    theme: seven
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      administrator: administrator
+      columnist: columnist
+      editor: editor
+    language:
+      pt-br: pt-br
+      en: en
+    weight: '-10'
+    remove: Remover

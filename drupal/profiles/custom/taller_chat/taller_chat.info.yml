@@ -1,0 +1,44 @@
+name: 'TallerChat'
+type: profile
+description: 'TallerChat profile.'
+core: 8.x
+dependencies:
+  - block
+  - breakpoint
+  - ckeditor
+  - comment
+  - config
+  - datetime
+  - dynamic_page_cache
+  - editor
+  - field
+  - field_ui
+  - file
+  - filter
+  - graphql
+  - graphql_core
+  - graphql_mutation
+  - hal
+  - history
+  - image
+  - link
+  - node
+  - options
+  - page_cache
+  - serialization
+  - shortcut
+  - system
+  - taller_chat_channel
+  - taller_chat_message
+  - taxonomy
+  - text
+  - toolbar
+  - update
+  - user
+  - views_ui
+  - views
+themes:
+  - stable
+  - classy
+  - bartik
+  - seven

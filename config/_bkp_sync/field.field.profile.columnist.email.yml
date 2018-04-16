@@ -1,0 +1,19 @@
+uuid: 1424d13d-e396-4ca5-af83-8b9a28c0fe9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.email
+    - profile.type.columnist
+id: profile.columnist.email
+field_name: email
+entity_type: profile
+bundle: columnist
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

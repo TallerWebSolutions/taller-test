@@ -1,0 +1,7 @@
+log: false
+debug_screen: false
+log_level_system: warning
+log_level_screen: warning
+_core:
+  default_config_hash: alE0QceCqKyU2plA8_LELZeCByMYgh2CnTfuBeINp4g
+langcode: pt-br

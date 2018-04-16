@@ -1,0 +1,21 @@
+uuid: 1bae65d1-cc0e-4ea1-aeb7-620b1f01b86d
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.social_medias
+field_name: social_medias
+entity_type: profile
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

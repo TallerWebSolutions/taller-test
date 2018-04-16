@@ -1,0 +1,19 @@
+uuid: dea6cd8a-4c3b-41dc-9c2e-b7a71e27a9d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.name
+    - paragraphs.paragraphs_type.reporter
+id: paragraph.reporter.name
+field_name: name
+entity_type: paragraph
+bundle: reporter
+label: Nome
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
