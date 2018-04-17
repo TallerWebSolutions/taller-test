@@ -69,6 +69,7 @@ Password: *password*
 [![](./docs/assets/3-run.gif)](https://asciinema.org/a/FPNKnxSqQoTXMSTqevt7NPqJE)
 
 ```
+make in
 cd next
 yarn dev
 ```
