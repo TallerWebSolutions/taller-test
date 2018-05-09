@@ -11,6 +11,11 @@ export USER_ID=$(shell id -u)
 #       than the containers user.
 export GROUP_ID=$(shell if [ `id -g` == '20' ]; then echo '1000'; else echo `id -g`; fi)
 
+print-%:
+	@echo $* = $($*)
+
+env: print-TZ print-USER_ID print-GROUP_ID
+
 run:
 	docker-compose run --service-ports --rm app
 
