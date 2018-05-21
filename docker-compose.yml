@@ -30,11 +30,7 @@ services:
     links:
       - database:database-host
     volumes:
-        # 1 - Use ssh config from host.
-        # 2 - Use git config from host.
-        # 3 - Place app files.
-      - $HOME/.ssh:/drupal/.ssh
-      - $HOME/.gitconfig:/drupal/.gitconfig
+      # Place app files.
       - $PWD:/drupal/app
 
   database:
