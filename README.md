@@ -124,4 +124,4 @@ The following commands are available on the Next.js React application:
 
 ## *Disclaimer*
 
-*This project is not a product, will never be, will not go into production, and has no intention to serve any purpose other than to be a constrained but near-real-world application used to test candidates to a development position at [Taller](taller.net.br).*
+*This project is not a product, will never be, will not go into production, and has no intention to serve any purpose other than to be a constrained but near-real-world application used to test candidates to a development position at [Taller](https://taller.net.br).*
