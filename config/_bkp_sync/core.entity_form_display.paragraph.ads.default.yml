@@ -1,0 +1,46 @@
+uuid: cf6a918a-1be8-4632-bbf2-175094cfccd1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.ads.ad_link
+    - field.field.paragraph.ads.image
+    - field.field.paragraph.ads.title
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.ads
+  module:
+    - image
+    - link
+id: paragraph.ads.default
+targetEntityType: paragraph
+bundle: ads
+mode: default
+content:
+  ad_link:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

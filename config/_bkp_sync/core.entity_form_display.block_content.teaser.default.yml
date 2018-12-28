@@ -1,0 +1,109 @@
+uuid: ec00f24e-1b4c-482a-b145-1baed7bf79d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.teaser
+    - field.field.block_content.teaser.field_open_tab
+    - field.field.block_content.teaser.field_topper_color
+    - field.field.block_content.teaser.foto
+    - field.field.block_content.teaser.link
+    - field.field.block_content.teaser.reporters
+    - field.field.block_content.teaser.title
+    - field.field.block_content.teaser.topper
+    - field.field.block_content.teaser.video
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+    - paragraphs
+id: block_content.teaser.default
+targetEntityType: block_content
+bundle: teaser
+mode: default
+content:
+  field_open_tab:
+    weight: 29
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_topper_color:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  foto:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  link:
+    weight: 5
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  reporters:
+    type: paragraphs
+    weight: 6
+    region: content
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      closed_mode: summary
+      autocollapse: none
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+  title:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  topper:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  video:
+    weight: 26
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+hidden: {  }

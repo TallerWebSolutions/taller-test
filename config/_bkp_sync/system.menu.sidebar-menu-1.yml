@@ -1,0 +1,8 @@
+uuid: fb41e7ce-d6fc-4554-a4d7-55f1d0f37b21
+langcode: pt-br
+status: true
+dependencies: {  }
+id: sidebar-menu-1
+label: 'Menu Lateral 1'
+description: ''
+locked: false

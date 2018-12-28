@@ -1,0 +1,21 @@
+uuid: 85f6bb56-e5aa-4a2f-bb10-cf6aed25c292
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.channel
+id: taxonomy_term.channel.default
+targetEntityType: taxonomy_term
+bundle: channel
+mode: default
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  description: true

@@ -1,0 +1,11 @@
+uuid: 29a5c436-be84-4cfc-92dd-e2a1693038bc
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.outbrain_adserver
+id: block_content.outbrain_adserver
+target_entity_type_id: block_content
+target_bundle: outbrain_adserver
+default_langcode: site_default
+language_alterable: false

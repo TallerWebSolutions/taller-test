@@ -1,0 +1,11 @@
+uuid: b24304a4-64a9-4d6f-b37e-e1e52ba92941
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: puBstSLDz8mbaWU357zaqQDBGMGsJzG0j-TQNQkjg20
+id: '404'
+label: '404 page not found'
+tags:
+  canonical_url: '[site:url]'
+  shortlink: '[site:url]'

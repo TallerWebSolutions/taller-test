@@ -1,0 +1,23 @@
+uuid: f8081840-68ea-43a6-9bb4-01e6f3784064
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.ad_link
+    - paragraphs.paragraphs_type.ads
+  module:
+    - link
+id: paragraph.ads.ad_link
+field_name: ad_link
+entity_type: paragraph
+bundle: ads
+label: link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

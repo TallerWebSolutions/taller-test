@@ -1,0 +1,22 @@
+uuid: 13910793-4707-4180-8b41-f11f111753ee
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.outbrain_adserver
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.outbrain_adserver.body
+field_name: body
+entity_type: block_content
+bundle: outbrain_adserver
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

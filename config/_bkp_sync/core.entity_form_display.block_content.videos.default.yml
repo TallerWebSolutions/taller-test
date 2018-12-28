@@ -1,0 +1,42 @@
+uuid: 9e230289-3a27-43f2-b130-93565ba556e0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.videos
+    - field.field.block_content.videos.field_videos
+  module:
+    - paragraphs
+id: block_content.videos.default
+targetEntityType: block_content
+bundle: videos
+mode: default
+content:
+  field_videos:
+    type: entity_reference_paragraphs
+    weight: 26
+    settings:
+      title: Paragraph
+      title_plural: Parágrafos
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

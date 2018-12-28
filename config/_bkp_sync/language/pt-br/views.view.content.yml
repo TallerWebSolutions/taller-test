@@ -1,0 +1,60 @@
+label: Conteúdo
+description: 'Encontrar e gerenciar conteúdo.'
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtrar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
+      fields:
+        title:
+          label: Título
+        type:
+          label: 'Tipo de conteúdo'
+          separator: ', '
+        name:
+          label: Autor
+        status:
+          label: Status
+          settings:
+            format_custom_true: Publicado
+            format_custom_false: 'Não publicado'
+        changed:
+          label: Atualizado
+        operations:
+          label: Operações
+      filters:
+        title:
+          expose:
+            label: Título
+        type:
+          expose:
+            label: 'Tipo de conteúdo'
+        status:
+          expose:
+            label: Status
+          group_info:
+            group_items:
+              1:
+                title: Publicado
+              2:
+                title: 'Não publicado'
+        langcode:
+          expose:
+            label: Idioma
+      title: Conteúdo
+      empty:
+        area_text_custom:
+          content: 'Sem conteúdo disponivel.'
+    display_title: Principal
+  page_1:
+    display_options:
+      menu:
+        title: Conteúdo
+      tab_options:
+        title: Conteúdo
+    display_title: Página

@@ -1,0 +1,94 @@
+uuid: 2003fce6-9cdd-463f-9605-29f4513670e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.columnist.background_picture
+    - field.field.profile.columnist.description
+    - field.field.profile.columnist.email
+    - field.field.profile.columnist.field_photo_stories
+    - field.field.profile.columnist.first_name
+    - field.field.profile.columnist.last_name
+    - field.field.profile.columnist.profile_picture
+    - field.field.profile.columnist.social_medias
+    - image.style.default
+    - profile.type.columnist
+  module:
+    - image
+    - path
+id: profile.columnist.default
+targetEntityType: profile
+bundle: columnist
+mode: default
+content:
+  background_picture:
+    weight: 6
+    settings:
+      preview_image_style: default
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  description:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  email:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_photo_stories:
+    weight: 31
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  first_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  last_name:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  profile_picture:
+    weight: 5
+    settings:
+      preview_image_style: default
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  social_medias:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden: {  }

@@ -1,0 +1,18 @@
+uuid: b129ec1b-2b36-4977-a4a5-9941eb26acbf
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_show_main_image_on_body
+field_name: field_show_main_image_on_body
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

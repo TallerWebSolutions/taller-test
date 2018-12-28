@@ -1,0 +1,43 @@
+uuid: 4dbed1a9-e34c-4c20-b396-36b541a7bb75
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - filter.format.simple
+  module:
+    - ckeditor
+format: simple
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formatação
+          items:
+            - Bold
+            - Italic
+            - Underline
+            - Strike
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Ferramentas
+          items:
+            - Source
+  plugins:
+    language:
+      language_list: un
+    stylescombo:
+      styles: ''
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

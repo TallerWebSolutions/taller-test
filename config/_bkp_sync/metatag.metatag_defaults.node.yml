@@ -1,0 +1,19 @@
+uuid: 7064cafb-6506-4c4a-a2ae-9644a16b42c3
+langcode: pt-br
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Content
+tags:
+  canonical_url: '[node:url]'
+  description: '[node:summary]'
+  title: '[node:title] | [site:name]'
+  og_title: '[node:title]'
+  og_locale: pt_BR
+  og_type: article
+  og_image: '[node:field_main_image:entity:url]'
+  twitter_cards_image: '[node:field_main_image:entity:url]'
+  twitter_cards_type: summary_large_image
+  twitter_cards_title: '[node:title]'

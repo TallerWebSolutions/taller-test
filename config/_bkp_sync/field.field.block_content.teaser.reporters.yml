@@ -1,0 +1,31 @@
+uuid: 70f1f2e5-96b2-44d6-88ce-ebdb52c151ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.teaser
+    - field.storage.block_content.reporters
+    - paragraphs.paragraphs_type.reporter
+  module:
+    - entity_reference_revisions
+id: block_content.teaser.reporters
+field_name: reporters
+entity_type: block_content
+bundle: teaser
+label: Repórteres
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      reporter: reporter
+    target_bundles_drag_drop:
+      reporter:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

@@ -1,0 +1,39 @@
+version: '2'
+
+services:
+  # This container is never builded - it's used only
+  # for reusing configuration,
+  meta:
+    image: busybox # Necessary to make this container valid.
+    environment:
+      - MYSQL_USER=drupal
+      - MYSQL_DATABASE=drupal
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=password
+
+  app:
+    extends: meta
+    image: taller-chat-app
+    build:
+      context: ./docker/
+      args:
+        USER_ID: "$USER_ID"
+        GROUP_ID: "$GROUP_ID"
+    hostname: app
+    ports:
+      - "80:80"
+      - "3000:3000"
+    dns:
+      - 8.8.8.8
+    cap_add:
+      - ALL
+    links:
+      - database:database-host
+    volumes:
+      # Place app files.
+      - $PWD:/drupal/app
+
+  database:
+    extends: meta
+    image: mysql:5.6
+    container_name: 'taller-chat-db'

@@ -1,0 +1,19 @@
+uuid: 46c35113-fa31-4d28-a1f7-f880ca34da1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.teaser
+    - field.storage.block_content.topper
+id: block_content.teaser.topper
+field_name: topper
+entity_type: block_content
+bundle: teaser
+label: Cartola
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,47 @@
+uuid: aa54eb43-91c2-450d-8a96-0aa12eac94bd
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_body_text
+    - node.type.article_columnist
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.videos
+  module:
+    - entity_reference_revisions
+id: node.article_columnist.field_body_text
+field_name: field_body_text
+entity_type: node
+bundle: article_columnist
+label: 'Corpo da notícia'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      text: text
+      image: image
+      videos: videos
+    target_bundles_drag_drop:
+      reporter:
+        weight: 2
+        enabled: false
+      text:
+        enabled: true
+        weight: 3
+      image:
+        enabled: true
+        weight: 5
+      ads:
+        weight: 6
+        enabled: false
+      videos:
+        enabled: true
+        weight: 10
+field_type: entity_reference_revisions

@@ -1,0 +1,18 @@
+label: 'Novos membros'
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
+      title: 'Novos membros'
+  block_1:
+    display_title: 'Novos membros'
+    display_options:
+      block_description: 'Novos membros'
+      block_category: Usuário

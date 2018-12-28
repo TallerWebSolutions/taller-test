@@ -1,0 +1,8 @@
+uuid: 76f676b9-91e5-4d14-a307-1da768484d54
+langcode: pt-br
+status: true
+dependencies: {  }
+id: sidebar-menu-2
+label: 'Menu Lateral 2'
+description: ''
+locked: false

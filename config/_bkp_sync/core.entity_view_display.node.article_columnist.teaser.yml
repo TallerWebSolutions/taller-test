@@ -1,0 +1,37 @@
+uuid: be9e96ec-c235-4a77-a313-a8223166c992
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.article_columnist.body
+    - field.field.node.article_columnist.field_body_text
+    - field.field.node.article_columnist.tags
+    - node.type.article_columnist
+  module:
+    - text
+    - user
+id: node.article_columnist.teaser
+targetEntityType: node
+bundle: article_columnist
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_body_text: true
+  field_main_image: true
+  field_metatags: true
+  field_topper: true
+  langcode: true
+  tags: true
+  topper: true

@@ -1,0 +1,19 @@
+uuid: fac74bb7-15fd-42eb-8d54-e3153e6c1455
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.title
+    - paragraphs.paragraphs_type.ads
+id: paragraph.ads.title
+field_name: title
+entity_type: paragraph
+bundle: ads
+label: Título
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
