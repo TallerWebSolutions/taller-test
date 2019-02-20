@@ -11,6 +11,7 @@ use Drupal\Core\Session\AccountInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 use Drupal\user\UserAuthInterface;
 use Drupal\user\UserInterface;
+use Drupal\graphql\GraphQL\Execution\ResolveContext;
 use Drupal\graphql\Plugin\GraphQL\Mutations\MutationPluginBase;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -19,7 +20,7 @@ use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-use Youshido\GraphQL\Execution\ResolveInfo;
+use GraphQL\Type\Definition\ResolveInfo;
 
 /**
  * Login User.
@@ -115,7 +116,7 @@ class UserLogin extends MutationPluginBase implements ContainerFactoryPluginInte
    * @return \Drupal\user\UserInterface
    *   The newly logged user.
    */
-  public function resolve($value, array $args, ResolveInfo $info) {
+  public function resolve($value, array $args, ResolveContext $context, ResolveInfo $info) {
     return $this->login(\Drupal::request(), $args);
   }
 

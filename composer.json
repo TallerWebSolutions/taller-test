@@ -21,7 +21,7 @@
     "webflo/drupal-finder": "^1.0.0",
     "webmozart/path-util": "^2.3",
     "joshtronic/php-loremipsum": "^1.0",
-    "drupal/graphql": "^3.0@beta",
+    "drupal/graphql": "3.x-dev",
     "drupal/graphql_mutation": "1.x-dev"
   },
   "require-dev": {

@@ -23,9 +23,11 @@ const query = gql`
     ) {
       count
       entities {
-        id
-        author: entityOwner {
-          name
+        entityId
+        ...on EntityOwnable {
+          author: entityOwner {
+            name
+          }
         }
         ... on Message {
           message: body {
