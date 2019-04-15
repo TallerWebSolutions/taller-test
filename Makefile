@@ -4,8 +4,11 @@ SHELL := /bin/bash # Use bash syntax
 # Configure environment.
 # ----------------------
 
+port ?= 80
+
 export TZ=America/Sao_Paulo
 export USER_ID=$(shell id -u)
+export PORT=$(port)
 
 # @TODO Hack for MacOSX or other OS which has the same group id
 #       than the containers user.
