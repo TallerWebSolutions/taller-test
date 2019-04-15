@@ -21,7 +21,7 @@ services:
         GROUP_ID: "$GROUP_ID"
     hostname: app
     ports:
-      - "80:80"
+      - "$PORT:80"
       - "3000:3000"
     dns:
       - 8.8.8.8
