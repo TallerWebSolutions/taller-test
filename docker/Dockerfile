@@ -49,7 +49,7 @@ RUN rm -Rf /var/www/drupal \
 
 COPY ./.nvmrc /etc/.nvmrc
 RUN . /usr/local/nvm/nvm.sh && \
-    cd /etc/ && nvm install v8.9.1 && nvm alias default && nvm use default && \
+    cd /etc/ && nvm install 11.10.1 && nvm alias default && nvm use default && \
     npm install -g yarn
 
 
