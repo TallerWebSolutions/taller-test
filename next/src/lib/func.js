@@ -36,7 +36,7 @@ export const finishEvent = R.compose(stopPropagation, preventDefault)
  */
 export const rename = R.curry(
   (from, to, obj) => obj
-    ? R.omit([from], { ...obj, [to]: obj[from] })
+    ? R.omit([from], { [to]: obj[from], ...obj })
     : obj
 )
 

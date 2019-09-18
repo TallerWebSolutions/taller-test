@@ -33,7 +33,7 @@ const SignInPage = () => (
       <Headline>Welcome to the <b>TallerChat</b> <ChatIcon size='large' colorIndex='critical' /></Headline>
 
       <SigninContainer>
-        { ({ ...form, handleSubmit, submitting, invalid, values: { register } }) => (
+        { ({ handleSubmit, submitting, invalid, values: { register }, ...form }) => (
           <Form pad='medium' onSubmit={ handleSubmit }>
             <Heading strong tag='h2' align='center'>Sign In</Heading>
 

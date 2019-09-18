@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
      * We won't really use "page" object because Head, Main, and NextScript already
      * cover injecting the output content to the page.
      */
-    return { ...page, styleTags }
+    return { styleTags, ...page }
   }
 
   render () {

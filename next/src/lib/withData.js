@@ -51,7 +51,7 @@ export default ComposedComponent => class WithData extends React.Component {
     const introspectionQueryResultData = await introspect()
     const fragmentMatcher = new IntrospectionFragmentMatcher({ introspectionQueryResultData })
 
-    const initialProps = { ...props, __APOLLO_INSTROSPECTION__: introspectionQueryResultData }
+    const initialProps = { __APOLLO_INSTROSPECTION__: introspectionQueryResultData, ...props }
 
     // When already on the client-side, do not defer initialization.
     if (process.browser || process.env.APOLLO_SSR_OFF) return initialProps
