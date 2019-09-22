@@ -7,11 +7,7 @@
       "presets": ["next/babel"]
     },
     "test": {
-      "presets": [
-        ["env", { "modules": "commonjs" }],
-        ["next/babel"]
-      ],
-
+      "presets": ["next/babel"],
       "plugins": [
         "istanbul",
         "babel-plugin-rewire"
