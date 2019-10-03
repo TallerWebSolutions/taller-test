@@ -1,0 +1,27 @@
+# Message routing definition
+message.settings_tab:
+  route_name: message.settings
+  title: 'Settings'
+  base_route: message.settings
+
+entity.message.canonical:
+  route_name: entity.message.canonical
+  base_route: entity.message.canonical
+  title: 'View'
+
+entity.message.edit_form:
+  route_name: entity.message.edit_form
+  base_route: entity.message.canonical
+  title: 'Edit'
+
+entity.message.version_history:
+  route_name: entity.message.version_history
+  base_route: entity.message.canonical
+  title: 'Revisions'
+
+entity.message.delete_form:
+  route_name:  entity.message.delete_form
+  base_route:  entity.message.canonical
+  title: Delete
+  weight: 10
+

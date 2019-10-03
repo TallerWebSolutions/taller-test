@@ -1,0 +1,19 @@
+uuid: 0efef650-e30c-46b8-a000-17f1f7eb6c7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.description
+    - profile.type.columnist
+id: profile.columnist.description
+field_name: description
+entity_type: profile
+bundle: columnist
+label: Descrição
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

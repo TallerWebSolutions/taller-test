@@ -1,0 +1,88 @@
+uuid: 9e4e640c-ec77-4a23-88fa-a18fd0415f35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.columnist.background_picture
+    - field.field.profile.columnist.description
+    - field.field.profile.columnist.email
+    - field.field.profile.columnist.field_photo_stories
+    - field.field.profile.columnist.first_name
+    - field.field.profile.columnist.last_name
+    - field.field.profile.columnist.profile_picture
+    - field.field.profile.columnist.social_medias
+    - image.style.default
+    - profile.type.columnist
+  module:
+    - image
+id: profile.columnist.default
+targetEntityType: profile
+bundle: columnist
+mode: default
+content:
+  background_picture:
+    weight: 6
+    label: above
+    settings:
+      image_style: default
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  description:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  email:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_photo_stories:
+    weight: 8
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  first_name:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  last_name:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  profile_picture:
+    weight: 5
+    label: above
+    settings:
+      image_style: default
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  social_medias:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

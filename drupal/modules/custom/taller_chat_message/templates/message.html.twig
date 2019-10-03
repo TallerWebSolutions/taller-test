@@ -1,0 +1,22 @@
+{#
+/**
+ * @file message.html.twig
+ * Default theme implementation to present Message data.
+ *
+ * This template is used when viewing Message pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_message()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('message') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

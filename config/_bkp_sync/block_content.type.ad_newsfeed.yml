@@ -1,0 +1,8 @@
+uuid: 3f0b2e73-03b3-4238-9a95-1b2401110fd2
+langcode: pt-br
+status: true
+dependencies: {  }
+id: ad_newsfeed
+label: 'Anúncio pago'
+revision: 0
+description: ''

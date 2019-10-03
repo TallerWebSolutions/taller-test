@@ -1,0 +1,68 @@
+label: Pessoas
+description: 'Encontrar e gerenciar pessoas interagindo com seu site.'
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtrar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Tudo -'
+            offset_label: Offset
+      fields:
+        user_bulk_form:
+          label: 'Atualização em massa'
+        name:
+          label: Usuário
+        status:
+          label: Status
+          settings:
+            format_custom_true: Ativo
+            format_custom_false: Bloqueado
+        roles_target_id:
+          label: Papéis
+        created:
+          label: 'Membro há'
+        access:
+          label: 'Último acesso'
+        operations:
+          label: Operações
+        mail:
+          separator: ', '
+      filters:
+        status:
+          group_info:
+            label: Status
+            group_items:
+              1:
+                title: Ativo
+              2:
+                title: Bloqueado
+        roles_target_id:
+          expose:
+            label: Papel
+        permission:
+          expose:
+            label: Permissão
+      title: Pessoas
+      empty:
+        area_text_custom:
+          content: 'Ninguém disponível.'
+      use_more_text: mais
+  page_1:
+    display_title: Página
+    display_options:
+      menu:
+        title: Listar
+        description: 'Encontrar e gerenciar pessoas interagindo com seu site.'
+      tab_options:
+        title: Pessoas
+        description: 'Gerenciar contas de usuário, papéis e permissões.'

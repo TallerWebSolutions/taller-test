@@ -1,0 +1,8 @@
+uuid: d292dfb9-ab89-4cc2-811e-5bbed1522e13
+langcode: en
+status: true
+dependencies: {  }
+id: teaser
+label: Teaser
+revision: 1
+description: 'Use este tipo de bloco para criar teasers de notícias e outros conteúdos agregados.'

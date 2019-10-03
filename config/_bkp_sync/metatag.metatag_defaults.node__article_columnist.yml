@@ -1,0 +1,9 @@
+uuid: 0028634e-0c37-416f-969b-86117f5950c1
+langcode: pt-br
+status: true
+dependencies: {  }
+id: node__article_columnist
+label: 'Content: Artigo de Colunista'
+tags:
+  title: '[node:title] | [node:author:profiles:columnist:first_name] [node:author:profiles:columnist:last_name] | [site:name]'
+  og_description: '[node:author:profiles:columnist:first_name] [node:author:profiles:columnist:last_name] | [site:name]'

@@ -1,0 +1,14 @@
+{
+  extends: ["taller/react"],
+  globals: {
+    xdescribe: false,
+    fdecribte: false,
+    xit: false,
+    fit: false
+  },
+  rules: {
+    no-mixed-operators: 0,
+    import/first: 0,
+    prefer-promise-reject-errors: 0
+  }
+}

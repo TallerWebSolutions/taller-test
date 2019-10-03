@@ -1,0 +1,23 @@
+uuid: d5523f1d-a7dd-4f54-976f-6ba9aba052b6
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - ctools
+    - profile
+id: columnists
+label: Colunistas
+type: 'canonical_entities:profile'
+pattern: '/colunistas/[profile:first_name]-[profile:last_name]'
+selection_criteria:
+  108ac3a5-dfbc-40e7-a992-55803233a6f1:
+    id: 'entity_bundle:profile'
+    bundles:
+      columnist: columnist
+    negate: false
+    context_mapping:
+      profile: profile
+    uuid: 108ac3a5-dfbc-40e7-a992-55803233a6f1
+selection_logic: and
+weight: -5
+relationships: {  }

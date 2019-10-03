@@ -1,0 +1,20 @@
+uuid: 05197d51-027e-4a6a-8835-20f2334d3519
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+    - nsc_layouts
+id: node.field_container_block
+field_name: field_container_block
+entity_type: node
+type: entity_reference
+settings:
+  target_type: container_block
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

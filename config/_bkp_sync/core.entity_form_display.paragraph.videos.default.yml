@@ -1,0 +1,45 @@
+uuid: 49f0158f-f4b4-4dcc-ba53-35c0a6298407
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.videos.field_title
+    - field.field.paragraph.videos.field_topper
+    - field.field.paragraph.videos.field_video
+    - paragraphs.paragraphs_type.videos
+  module:
+    - link
+id: paragraph.videos.default
+targetEntityType: paragraph
+bundle: videos
+mode: default
+content:
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_topper:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_video:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

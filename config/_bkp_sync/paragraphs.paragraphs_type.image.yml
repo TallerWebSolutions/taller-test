@@ -1,0 +1,9 @@
+uuid: 5cca8dfd-8903-4db3-9980-d1e0e34992a9
+langcode: pt-br
+status: true
+dependencies: {  }
+id: image
+label: Imagem
+icon_uuid: null
+description: 'Parágrafo de imagem.'
+behavior_plugins: {  }

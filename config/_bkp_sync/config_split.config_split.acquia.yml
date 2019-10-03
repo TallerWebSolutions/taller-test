@@ -1,0 +1,27 @@
+uuid: 959dc0d3-7494-45ad-a5be-d91e99398d73
+langcode: pt-br
+status: false
+dependencies: {  }
+id: acquia
+label: Acquia
+folder: ../config/acquia
+module:
+  acquia_connector: 0
+  acquia_purge: 0
+  cdn: 0
+  cdn_ui: 0
+  cloudflare: 0
+  cloudflarepurger: 0
+  memcache: 0
+  purge: 0
+  purge_drush: 0
+  purge_processor_cron: 0
+  purge_processor_lateruntime: 0
+  purge_queuer_coretags: 0
+  purge_ui: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
