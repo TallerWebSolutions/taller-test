@@ -1,0 +1,13 @@
+uuid: d56294f5-02ca-491c-922a-b7c38c3662cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.channel
+id: taxonomy_term.channel.default
+targetEntityType: taxonomy_term
+bundle: channel
+mode: default
+content: {  }
+hidden:
+  description: true

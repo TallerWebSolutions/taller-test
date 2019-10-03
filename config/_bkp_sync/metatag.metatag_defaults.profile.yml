@@ -1,0 +1,8 @@
+uuid: cb0773f3-4955-45e8-b251-098b2d2b2ce9
+langcode: pt-br
+status: true
+dependencies: {  }
+id: profile
+label: Perfil
+tags:
+  title: '[profile:first_name] [profile:last_name] | [site:name]'

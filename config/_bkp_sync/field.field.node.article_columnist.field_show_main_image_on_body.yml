@@ -1,0 +1,23 @@
+uuid: 0d483936-8c49-45fd-80ce-8427b5566354
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_show_main_image_on_body
+    - node.type.article_columnist
+id: node.article_columnist.field_show_main_image_on_body
+field_name: field_show_main_image_on_body
+entity_type: node
+bundle: article_columnist
+label: 'Adicionar imagem ao corpo de texto'
+description: 'Marque isso para que a imagem de destaque seja exibida também no corpo de texto.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,19 @@
+uuid: 3613110b-42f1-467c-b1e6-81606d28425d
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.ad_link
+field_name: ad_link
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

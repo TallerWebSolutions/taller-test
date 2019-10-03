@@ -1,0 +1,9 @@
+uuid: 2cc1ed4d-83bd-47aa-aebc-1cbb0338506a
+langcode: en
+status: true
+dependencies: {  }
+id: reporter
+label: Repórter
+icon_uuid: null
+description: 'Tipo de parágrafo para guardar informações de repórteres.'
+behavior_plugins: {  }

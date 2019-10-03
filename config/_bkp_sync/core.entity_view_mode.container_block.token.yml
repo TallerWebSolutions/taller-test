@@ -1,0 +1,10 @@
+uuid: 0bdbb214-80e9-435d-9ce6-281e295e199e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - nsc_layouts
+id: container_block.token
+label: Token
+targetEntityType: container_block
+cache: true

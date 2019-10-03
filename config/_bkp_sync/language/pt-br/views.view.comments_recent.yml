@@ -1,0 +1,13 @@
+label: 'Comentários recentes'
+display:
+  default:
+    display_title: Principal
+    display_options:
+      title: 'Comentários recentes'
+      empty:
+        area_text_custom:
+          content: 'Não há comentários.'
+  block_1:
+    display_title: Bloco
+    display_options:
+      block_description: 'Comentários recentes'

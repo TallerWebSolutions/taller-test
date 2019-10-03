@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  app:
+    volumes:
+      - "code_nfsmount:/drupal/app"
+
+volumes:
+  mysql:
+  code_nfsmount:
+    driver: local
+    driver_opts:
+      type: nfs
+      o: addr=host.docker.internal,rw,nolock,hard,nointr,nfsvers=3
+      device: ":/System/Volumes/Data/${PWD}"

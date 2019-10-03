@@ -1,0 +1,8 @@
+uuid: b9369be7-edf6-4662-b797-e1e12f6c1efc
+langcode: pt-br
+status: true
+dependencies: {  }
+id: outbrain_adserver
+label: 'Outbrain AdServer'
+revision: 0
+description: ''

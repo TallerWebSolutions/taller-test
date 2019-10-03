@@ -1,0 +1,71 @@
+label: Arquivos
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtrar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Tudo -'
+            offset_label: Offset
+      fields:
+        filename:
+          label: Nome
+          separator: ', '
+        filemime:
+          label: 'Tipo MIME'
+        filesize:
+          label: Tamanho
+        status:
+          label: Status
+          settings:
+            format_custom_false: Temporário
+            format_custom_true: Permanente
+        created:
+          label: 'Data em que foi enviado'
+        changed:
+          label: 'Data da alteração'
+        count:
+          label: 'Usado em'
+      filters:
+        filename:
+          expose:
+            label: 'Nome do arquivo'
+        filemime:
+          expose:
+            label: 'Tipo MIME'
+        status:
+          expose:
+            label: Status
+      title: Arquivos
+  page_1:
+    display_options:
+      menu:
+        title: Arquivos
+  page_2:
+    display_options:
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Tudo -'
+            offset_label: Offset
+      fields:
+        entity_label:
+          label: Entidade
+        type:
+          label: 'Tipo de entidade'
+        count:
+          label: 'Usar contador'
+      arguments:
+        fid:
+          exception:
+            title: Tudo

@@ -1,0 +1,23 @@
+uuid: cb098c22-5320-4231-a20d-d3fc60350a7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.link
+    - paragraphs.paragraphs_type.reporter
+  module:
+    - link
+id: paragraph.reporter.link
+field_name: link
+entity_type: paragraph
+bundle: reporter
+label: link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

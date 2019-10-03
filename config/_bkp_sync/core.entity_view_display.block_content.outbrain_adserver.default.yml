@@ -1,0 +1,23 @@
+uuid: 7d2bb1d3-4821-49c7-9e23-b0c085b4254a
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.outbrain_adserver
+    - field.field.block_content.outbrain_adserver.body
+  module:
+    - text
+id: block_content.outbrain_adserver.default
+targetEntityType: block_content
+bundle: outbrain_adserver
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

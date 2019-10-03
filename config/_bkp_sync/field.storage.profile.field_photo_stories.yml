@@ -1,0 +1,30 @@
+uuid: a3e26160-e08e-4d74-aaf1-68dd08b75db8
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - profile
+id: profile.field_photo_stories
+field_name: field_photo_stories
+entity_type: profile
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

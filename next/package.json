@@ -1,0 +1,68 @@
+{
+  "name": "taller-chat-app",
+  "version": "1.0.0",
+  "description": "Webapp for the TallerChat App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:start": "next build && npm start",
+    "start": "NODE_ENV=production next start",
+    "lint": "eslint .",
+    "test:unit": "TZ=America/Sao_Paulo ./node_modules/jest/bin/jest.js",
+    "test:unit:watch": "yarn test:unit -- --watch --collectCoverage=false",
+    "run:prepush": "yarn lint && yarn test:unit"
+  },
+  "keywords": [],
+  "author": "Taller Negócios Digitais",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link": "^1.2.13",
+    "apollo-link-http": "^1.5.16",
+    "babel-plugin-styled-components": "^1.10.6",
+    "babel-plugin-wrap-in-js": "^1.1.1",
+    "babel-polyfill": "^6.26.0",
+    "conducer": "^0.0.2",
+    "express": "^4.17.1",
+    "final-form": "^4.18.5",
+    "graphql": "^14.5.7",
+    "graphql-anywhere": "^4.2.4",
+    "graphql-tag": "^2.10.1",
+    "grommet": "1.13",
+    "is-url": "^1.2.4",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.0.6",
+    "object-path": "^0.11.4",
+    "ramda": "^0.26.1",
+    "raw-loader": "^3.1.0",
+    "react": "^16.9.0",
+    "react-apollo": "^3.1.1",
+    "react-dom": "^16.9.0",
+    "react-final-form": "^6.3.0",
+    "react-spinners": "^0.6.1",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-emotion": "^10.0.19",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-rewire": "^1.2.0",
+    "eslint": "6",
+    "eslint-config-taller": "^2.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "ignore-loader": "^0.1.2",
+    "istanbul": "^0.4.5",
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/.next",
+      "<rootDir>/temp"
+    ]
+  }
+}

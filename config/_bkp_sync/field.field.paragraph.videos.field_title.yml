@@ -1,0 +1,19 @@
+uuid: 4dd09ede-6efb-49c4-ab42-4b173d6a22ef
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.videos
+id: paragraph.videos.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: videos
+label: Título
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
