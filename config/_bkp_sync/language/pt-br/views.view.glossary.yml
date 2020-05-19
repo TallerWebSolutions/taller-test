@@ -1,0 +1,35 @@
+label: Glossário
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Tudo -'
+            offset_label: Offset
+          tags:
+            previous: ‹‹
+            next: ››
+      fields:
+        title:
+          label: Título
+        name:
+          label: Autor
+        changed:
+          label: 'Última atualização'
+  attachment_1:
+    display_title: Anexo
+  page_1:
+    display_title: Página
+    display_options:
+      menu:
+        title: Glossário

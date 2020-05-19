@@ -1,0 +1,25 @@
+label: 'Página Inicial'
+display:
+  default:
+    display_options:
+      empty:
+        area_text_custom:
+          content: 'Nenhum conteúdo para a página inicial foi criado ainda.'
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Ascendente
+          sort_desc_label: Decrescente
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Tudo -'
+            offset_label: Offset
+    display_title: Principal
+  feed_1:
+    display_title: Feed
+  page_1:
+    display_title: Página

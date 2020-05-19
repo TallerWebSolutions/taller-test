@@ -1,0 +1,29 @@
+uuid: 7b5c449c-8e1e-49a1-be6b-d24e6abbc2b0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_topper
+    - node.type.article_columnist
+    - taxonomy.vocabulary.topper
+id: node.article_columnist.field_topper
+field_name: field_topper
+entity_type: node
+bundle: article_columnist
+label: Cartola
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      topper: topper
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

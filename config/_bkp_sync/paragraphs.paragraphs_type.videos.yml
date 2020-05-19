@@ -1,0 +1,9 @@
+uuid: cf6aa0fa-2008-43d9-b5a3-1d639091aefe
+langcode: pt-br
+status: true
+dependencies: {  }
+id: videos
+label: Vídeos
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

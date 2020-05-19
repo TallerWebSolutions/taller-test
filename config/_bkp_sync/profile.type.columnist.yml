@@ -1,0 +1,17 @@
+uuid: 9bd8ddbb-2e86-4c0c-a634-f21f4523fc68
+langcode: en
+status: true
+dependencies: {  }
+id: columnist
+label: Colunista
+registration: false
+multiple: false
+roles:
+  authenticated: authenticated
+  columnist: columnist
+  administrator: '0'
+  content_administrator: '0'
+  client_developer: '0'
+weight: 0
+use_revisions: false
+description: 'Columnist profile'

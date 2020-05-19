@@ -1,0 +1,46 @@
+# Ignore non-custom parts of Drupal.
+drupal/core
+drupal/modules/contrib
+drupal/profiles/contrib
+drupal/themes/contrib
+drupal/sites/default/files
+drupal/sites/simpletest
+
+# Ignore local settings.
+drupal/sites/default/settings.local.php
+
+# Ignore dependencies.
+vendor/
+node_modules/
+
+# ===============================================
+# Temporary data --------------------------------
+# ===============================================
+
+.mysql
+.idea
+.vscode
+temp
+.DS_Store
+.editorconfig
+
+# ===============================================
+# Drupal Console logs.
+# ===============================================
+
+./console/logs
+
+# ===============================================
+# Custom project dependencies and settings.
+# ===============================================
+node_modules
+
+# ===============================================
+# Next.js app ignored files and folders.
+# ===============================================
+next/node_modules/
+next/.next/
+next/coverage/
+next/static/showcase/
+next/storybook-static/
+next/yarn-error.log

@@ -1,0 +1,70 @@
+{
+  "name": "taller-chat",
+  "description": "TallerChat Test",
+  "type": "project",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "composer/installers": "^1.2",
+    "cweagans/composer-patches": "^1.6",
+    "drupal-composer/drupal-scaffold": "^2.2",
+    "drupal/console": "^1.0.2",
+    "drupal/core": "~8.4",
+    "drupal/subrequests": "^2.0@beta",
+    "drush/drush": "~8.0",
+    "webflo/drupal-finder": "^1.0.0",
+    "webmozart/path-util": "^2.3",
+    "joshtronic/php-loremipsum": "^1.0",
+    "drupal/graphql": "^3.0@beta",
+    "drupal/graphql_mutation": "1.x-dev"
+  },
+  "require-dev": {
+    "drupal/devel": "^1.0",
+    "drupal/devel_debug_log": "^1.0@beta",
+    "phpunit/phpunit": ">=4.8.28 <5"
+  },
+  "conflict": {
+    "drupal/drupal": "*"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  },
+  "autoload": {
+    "classmap": [
+      "scripts/composer/ScriptHandler.php"
+    ]
+  },
+  "scripts": {
+    "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+    "pre-install-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+    ],
+    "pre-update-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+    ],
+    "post-install-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+    ],
+    "post-update-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+    ]
+  },
+  "extra": {
+    "installer-paths": {
+      "drupal/core": ["type:drupal-core"],
+      "drupal/libraries/{$name}": ["type:drupal-library"],
+      "drupal/modules/contrib/{$name}": ["type:drupal-module"],
+      "drupal/profiles/contrib/{$name}": ["type:drupal-profile"],
+      "drupal/themes/contrib/{$name}": ["type:drupal-theme"],
+      "drush/contrib/{$name}": ["type:drupal-drush"]
+    },
+    "enable-patching": true,
+    "patches": {}
+  }
+}
