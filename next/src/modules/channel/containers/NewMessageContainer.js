@@ -32,7 +32,7 @@ const NewMessageContainer = ({ children, user, channel }) => (
       <Form
         children={ children }
         onSubmit={ ({ body }, { reset }) => {
-          reset()
+          // reset()
 
           send({
             variables: {
